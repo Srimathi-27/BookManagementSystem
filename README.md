@@ -21,9 +21,9 @@ Returns a JWT token.
 
 ## Book APIs
 Method	        Endpoint	          Description
-GET	            /books	            Get all books
+GET	            /books	              Get all books
 GET	            /books/{isbn}	      Get book by ISBN
-POST	          /books	            Add new book
+POST	        /books	              Add new book
 PUT	            /books/{isbn}	      Update book
 DELETE	        /books/{isbn}	      Delete book
 
