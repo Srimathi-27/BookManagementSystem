@@ -20,14 +20,13 @@
 Returns a JWT token.
 
 ## Book APIs
-Method	        Endpoint	          Description
-GET	            /books	              Get all books
-GET	            /books/{isbn}	      Get book by ISBN
-POST	        /books	              Add new book
-PUT	            /books/{isbn}	      Update book
-DELETE	        /books/{isbn}	      Delete book
-
-All endpoints require a Bearer token in the header.
+Method            Endpoint               Description
+GET               /books                 Get all books
+GET               /books/{isbn}          Get book by ISBN
+POST              /books                 Add new book
+PUT               /books/{isbn}          Update book
+DELETE            /books/{isbn}          Delete book
+All endpoint's require a bearer token in the header
 
 
 
